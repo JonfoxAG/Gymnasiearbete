@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import ResponsiveAppBar from './Navbarcomponent';
 import reportWebVitals from './reportWebVitals';
-import Hello from './App';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('navbar'));
 root.render(
   <React.StrictMode>
-    <App />
-    <Hello />
+    <ResponsiveAppBar/>
   </React.StrictMode>
 );
 
