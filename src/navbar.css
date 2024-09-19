@@ -1,0 +1,9 @@
+#navbartitle {
+    text-align: center;
+}
+
+#navbaritems {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
