@@ -36,14 +36,11 @@ function ResponsiveAppBar() {
             noWrap
             component="a"
             href="index.html"
-            sx={{
-              display: { xs: 'none', md: 'flex' },
-            }}
           >
             TEST
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          <Box id ="dropdownbox">
             <IconButton /*DROPDOWN!!! */
               size="large"
               aria-label="account of current user"
@@ -68,7 +65,6 @@ function ResponsiveAppBar() {
               }}
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
-              sx={{ display: { xs: 'block', md: 'none' } }}
             >
                 <MenuItem onClick={handleCloseNavMenu}>
                   <ul>
@@ -92,20 +88,18 @@ function ResponsiveAppBar() {
             noWrap /*Only god knows */
             component="a" /*Link B) */
             href="#index.html" /*Link B) */
-            sx={{ /*CSS!!!!!!!!!!!!!!! <3333 */
-              display: { xs: 'flex', md: 'none' }, /*FLEXBOX!!! Shoutout!! */
-             }}
           >
             TEST
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            <Button
-            href="index.html">Index
+          <Box id="navbarbuttons">
+            <Button class="navbarb"
+            href="index.html">
+              Index
             </Button>
-            <Button href="page2.html">
+            <Button class="navbarb" href="page2.html">
               Page 2
             </Button>
-            <Button href="page3.html">
+            <Button class="navbarb" href="page3.html">
               Page 3
             </Button>
           </Box>
