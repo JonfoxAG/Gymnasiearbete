@@ -1,3 +1,6 @@
+#navbartitle {
+    display: none;
+}
 #navbartitle, #navbartitlem {
     text-align: center;
     font-family: monospace;
@@ -7,17 +10,51 @@
     text-decoration: none;
     margin-right: 2;
 }
+#menu-appbar {
+    display: none;
+}
 #navbartitlem {
     flex-grow: 1;
+    display: none;
 }
 #appbar {
     background-color: black;
 }
-#navbaritems {
-    display: flex;
+
+.navbarb {
+    color: white;
+    text-decoration: none;
+}
+#navbarbuttons {
+    display: none;
     justify-content: space-evenly;
     width: 100%;
     margin-top: 2;
-    color: white;
+    flex-grow: 1;
+  }
 
-}
+  #dropdownbox {
+    display: none;
+    flex-grow: 1;
+  }
+
+  @media (min-width: 768px) {
+    #navbarbuttons {
+      display: flex;
+    }
+    #navbartitle {
+        display: flex;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #navbartitlem {
+      display: flex;
+    }
+    #menu-appbar {
+        display: block;
+    }
+    #dropdownbox {
+        display: flex;
+    }
+  }
