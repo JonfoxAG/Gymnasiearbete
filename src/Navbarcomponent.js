@@ -11,8 +11,6 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import './navbar.css';
 
-const pages = ['Home Page', 'Page 1', 'Page 2'];
-
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
@@ -67,7 +65,7 @@ function ResponsiveAppBar() {
               onClose={handleCloseNavMenu}
             >
                 <MenuItem onClick={handleCloseNavMenu}>
-                  <ul>
+                  <ul id="dropdownitems">
                     <li>
                       <a href="index.html">Index</a>
                     </li>
