@@ -25,9 +25,8 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar sx = {{
-      background: 'black',
-    }}
+    <AppBar
+    id ="appbar"
     position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
@@ -36,15 +35,9 @@ function ResponsiveAppBar() {
             variant="h6"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="index.html"
             sx={{
-                mr: 2,
               display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
             }}
           >
             TEST
@@ -77,43 +70,44 @@ function ResponsiveAppBar() {
               onClose={handleCloseNavMenu}
               sx={{ display: { xs: 'block', md: 'none' } }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography sx={{ textAlign: 'center' }}>{page}</Typography>
+                <MenuItem onClick={handleCloseNavMenu}>
+                  <ul>
+                    <li>
+                      <a href="index.html">Index</a>
+                    </li>
+                    <li>
+                      <a href="page2.html">Page 2</a>
+                    </li>
+                    <li>
+                      <a href="page3.html">Page 3</a>
+                    </li>
+                  </ul>
                 </MenuItem>
-              ))}
             </Menu>
           </Box>
            {/*Slutet på dropdown*/}
           <Typography
+          id="navbartitlem"
             variant="h5" /*header*/
             noWrap /*Only god knows */
             component="a" /*Link B) */
-            href="#app-bar-with-responsive-menu" /*Link B) */
+            href="#index.html" /*Link B) */
             sx={{ /*CSS!!!!!!!!!!!!!!! <3333 */
-              mr: 2, /*BORDER RADIUS!!!! */
               display: { xs: 'flex', md: 'none' }, /*FLEXBOX!!! Shoutout!! */
-              flexGrow: 1, /*Nån alignment grej */ 
-              fontFamily: 'monospace', /*Font */
-              fontWeight: 700, /*Font fast dom gick till mcdonalds */
-              letterSpacing: '.3rem', /*Aaaa */
-              color: 'inherit', /*Basically texten är vit */
-              textDecoration: 'none', /*Lite finare lite bättre */
-            }}
+             }}
           >
             TEST
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
-              <Button
-              id="navbaritems"
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2 /*border radius*/ , color: 'white', display: 'block' }}
-              >
-                {page}
-              </Button>
-            ))}
+            <Button
+            href="index.html">Index
+            </Button>
+            <Button href="page2.html">
+              Page 2
+            </Button>
+            <Button href="page3.html">
+              Page 3
+            </Button>
           </Box>
         </Toolbar>
       </Container>

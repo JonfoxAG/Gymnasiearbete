@@ -1,9 +1,23 @@
-#navbartitle {
+#navbartitle, #navbartitlem {
     text-align: center;
+    font-family: monospace;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    color: inherit;
+    text-decoration: none;
+    margin-right: 2;
 }
-
+#navbartitlem {
+    flex-grow: 1;
+}
+#appbar {
+    background-color: black;
+}
 #navbaritems {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    margin-top: 2;
+    color: white;
+
 }
