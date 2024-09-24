@@ -1,18 +1,19 @@
 .Box {
-    padding: 5%, 2.5%;
     background: black;
-    /*position: absolute;*/
+    position: absolute;
     bottom: 0;
-    width: 95%;
+    width: 100%;
 
     @media (max-width: 1000px) {
-       /*padding: 70px 30px;*/
+       padding: 70px 30px;
     }
 }
 .Box h1 {
-    color: green;
+    color: white;
     text-align: center;
     margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .FooterContainer {
     display: flex;
