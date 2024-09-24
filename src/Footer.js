@@ -13,7 +13,7 @@ const Footer = () => {
     return (
         <div class="Box">
             <h1>
-                A Computer Science Portal for Geeks!
+                Footer
             </h1>
             <div class="FooterContainer">
                 <div class="Row">
