@@ -10,6 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import './navbar.css';
+import Link from 'react-router-dom';
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -67,13 +68,13 @@ function ResponsiveAppBar() {
                 <MenuItem onClick={handleCloseNavMenu}>
                   <ul id="dropdownitems">
                     <li>
-                      <a href="index.html">Index</a>
+                    <a href="index.html">Home</a>
                     </li>
                     <li>
-                      <a href="page2.html">Page 2</a>
+                    <a href="page2.html">Page 2</a>
                     </li>
                     <li>
-                      <a href="page3.html">Page 3</a>
+                    <a href="page3.html">Page 2</a>
                     </li>
                   </ul>
                 </MenuItem>
@@ -90,15 +91,14 @@ function ResponsiveAppBar() {
             TEST
           </Typography>
           <Box id="navbarbuttons">
-            <Button class="navbarb"
-            href="index.html">
+            <Button class="navbarb" href="index.html">
               Index
             </Button>
-            <Button class="navbarb" href="page2.html">
+            <Button class="navbarb" href='page2.html'>
               Page 2
             </Button>
             <Button class="navbarb" href="page3.html">
-              Page 3
+            Page 3
             </Button>
           </Box>
         </Toolbar>
