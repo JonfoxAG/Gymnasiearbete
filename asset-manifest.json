@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Gymnasiearbete/static/css/main.b1730602.css",
+    "main.js": "/Gymnasiearbete/static/js/main.b0e8d130.js",
+    "static/js/453.ad6eb26e.chunk.js": "/Gymnasiearbete/static/js/453.ad6eb26e.chunk.js",
+    "index.html": "/Gymnasiearbete/index.html",
+    "main.b1730602.css.map": "/Gymnasiearbete/static/css/main.b1730602.css.map",
+    "main.b0e8d130.js.map": "/Gymnasiearbete/static/js/main.b0e8d130.js.map",
+    "453.ad6eb26e.chunk.js.map": "/Gymnasiearbete/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1730602.css",
+    "static/js/main.b0e8d130.js"
+  ]
+}
