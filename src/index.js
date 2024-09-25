@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import './index.css';
 import Footer from './Footer';
 import ResponsiveAppBar from './Navbarcomponent';
