@@ -4,6 +4,7 @@ import Footer from './Footer';
 import ResponsiveAppBar from './Navbarcomponent';
 import reportWebVitals from './reportWebVitals';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { createRoot } from 'react-dom/client'; // Updated import
 
 
@@ -23,7 +24,9 @@ if (otherElement) {
 const thirdElement = document.getElementById('thirdnavbar');
 if (thirdElement) {
   const thirdRoot = createRoot(thirdElement); // Use createRoot in React 18
-  thirdRoot.render(<ResponsiveAppBar />);
+  thirdRoot.render(
+        <ResponsiveAppBar />
+);
 }
 
 const footerElement = document.getElementById('footer');
