@@ -3,6 +3,7 @@ import './index.css';
 import Footer from './Footer';
 import ResponsiveAppBar from './Navbarcomponent';
 import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom';
 import { createRoot } from 'react-dom/client'; // Updated import
 
 
