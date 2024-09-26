@@ -1,10 +1,8 @@
 import React from 'react';
 import './index.css';
 import Footer from './Footer';
-import ResponsiveAppBar from './Navbarcomponent';
+import Navbar from './Navbarcomponent';
 import reportWebVitals from './reportWebVitals';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { createRoot } from 'react-dom/client'; // Updated import
 
 
@@ -12,20 +10,20 @@ import { createRoot } from 'react-dom/client'; // Updated import
 const rootElement = document.getElementById('navbar');
 if (rootElement) {
   const root = createRoot(rootElement); // Use createRoot in React 18
-  root.render(<ResponsiveAppBar />);
+  root.render(<Navbar />);
 }
 // Render MyComponent in another div with id 'other-root'
 const otherElement = document.getElementById('othernavbar');
 if (otherElement) {
   const otherRoot = createRoot(otherElement); // Use createRoot in React 18
-  otherRoot.render(<ResponsiveAppBar />);
+  otherRoot.render(<Navbar />);
 }
 
 const thirdElement = document.getElementById('thirdnavbar');
 if (thirdElement) {
   const thirdRoot = createRoot(thirdElement); // Use createRoot in React 18
   thirdRoot.render(
-        <ResponsiveAppBar />
+        <Navbar />
 );
 }
 
