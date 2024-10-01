@@ -1,7 +1,7 @@
-const Contact = () => {
+const Page3 = () => {
     return (
         <h1>Contact</h1>
     );
   };
   
-  export default Contact;
+  export default Page3;

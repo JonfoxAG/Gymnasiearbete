@@ -34,7 +34,7 @@ const blogPosts = [
   },
 ];
 
-const Blog = () => {
+const Page2 = () => {
   return (
     <>
 <div id="othernavbar"></div>
@@ -54,4 +54,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Page2;
