@@ -9,13 +9,12 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from 'react-router-dom'; // Use react-router-dom Link for navigation
 
 const pages = [
-  { name: 'Blogs', path: '/blogs' },
-  { name: 'Contact', path: '/contact' },
   { name: 'Home', path: '/' },
+  { name: 'Page 2', path: '/page2' },
+  { name: 'Page 3', path: '/page3' },
 ];
 
 function Navbar() {
@@ -90,7 +89,6 @@ function Navbar() {
           </Box>
 
           {/* Desktop links */}
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
