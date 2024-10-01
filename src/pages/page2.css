@@ -1,0 +1,56 @@
+/**Page 2 CSS File**/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/**The Articles for the page**/
+
+
+
+.kropp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article1 {
+    height: 10rem;
+    width: 30rem;
+    border: 1rem black solid;
+    margin: 5rem;
+}
+.article2 {
+    height: 10rem;
+    width: 30rem;
+    border: 1rem black solid;
+    margin: 5rem;
+}
+.article3 {
+    height: 10rem;
+    width: 30rem;
+    border: 1rem black solid;
+    margin: 5rem;
+}
+.article4 {
+    height: 10rem;
+    width: 30rem;
+    border: 1rem black solid;
+    margin: 5rem;
+}
+.article5 {
+    height: 10rem;
+    width: 30rem;
+    border: 1rem black solid;
+    margin: 5rem;
+}
+.article6 {
+    height: 10rem;
+    width: 30rem;
+    border: 1rem black solid;
+    margin: 5rem;
+}
