@@ -1,17 +1,5 @@
 import React from 'react';
 import "./page2.css";
-import {
-  Container,
-  Typography,
-  Box,
-  Grid,
-  Card,
-  CardContent,
-  CardMedia,
-  Button,
-  CardActions,
-} from '@mui/material';
-import ResponsiveAppBar from '../components/Navbarcomponent';  // Import your AppBar component
 
 const blogPosts = [
   {
