@@ -4,13 +4,15 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import { styled } from '@mui/material/styles';
 import "./footer.css";
+
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: "transparent",
-  padding: theme.spacing(2),
-  textAlign: 'center',
-  color: "white",
-  boxShadow: "none",
-}));
+    backgroundColor: "transparent",
+    padding: theme.spacing(2),
+    textAlign: 'center',
+    color: "white",
+    boxShadow: "none",
+  }));
+
 
 const Footer = () => {
   return (
