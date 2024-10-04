@@ -1,105 +1,59 @@
-import React from "react";
-import './footer.css';
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
+import Paper from '@mui/material/Paper';
+import { styled } from '@mui/material/styles';
+import "./footer.css";
+const Item = styled(Paper)(({ theme }) => ({
+  backgroundColor: "transparent",
+  padding: theme.spacing(2),
+  textAlign: 'center',
+  color: "white",
+  boxShadow: "none",
+}));
+
 const Footer = () => {
-    return (
-        <div class="Box">
-            <h1>
-                Footer
-            </h1>
-            <div class="FooterContainer">
-                <div class="Row">
-                    <div class="Column">
-                        <div class="Heading">About Us</div>
-                        <div class="FooterLink" href="#">
-                            Aim
-                        </div>
-                        <div class="FooterLink" href="#">
-                            Vision
-                        </div>
-                        <div class="FooterLink" href="#">
-                            Testimonials
-                        </div>
-                    </div>
-                    <div class="Column">
-                        <div class="Heading">Services</div>
-                        <div class="FooterLink" href="#">
-                            Writing
-                        </div>
-                        <div class="FooterLink" href="#">
-                            Internships
-                        </div>
-                        <div class="FooterLink" href="#">
-                            Coding
-                        </div>
-                        <div class="FooterLink" href="#">
-                            Teaching
-                        </div>
-                    </div>
-                    <div class="Column">
-                        <div class="Heading">Contact Us</div>
-                        <div class="FooterLink" href="#">
-                            Uttar Pradesh
-                        </div>
-                        <div class="FooterLink" href="#">
-                            Ahemdabad
-                        </div>
-                        <div class="FooterLink" href="#">
-                            Indore
-                        </div>
-                        <div class="FooterLink" href="#">
-                            Mumbai
-                        </div>
-                    </div>
-                    <div class="Column">
-                        <div class="Heading">Social Media</div>
-                        <div class="FooterLink" href="#">
-                            <i className="fab fa-facebook-f">
-                                <span
-                                    style={{
-                                        marginLeft: "10px",
-                                    }}
-                                >
-                                    Facebook
-                                </span>
-                            </i>
-                        </div>
-                        <div class="FooterLink" href="#">
-                            <i className="fab fa-instagram">
-                                <span
-                                    style={{
-                                        marginLeft: "10px",
-                                    }}
-                                >
-                                    Instagram
-                                </span>
-                            </i>
-                        </div>
-                        <div class="FooterLink" href="#">
-                            <i className="fab fa-twitter">
-                                <span
-                                    style={{
-                                        marginLeft: "10px",
-                                    }}
-                                >
-                                    Twitter
-                                </span>
-                            </i>
-                        </div>
-                        <div class="FooterLink" href="#">
-                            <i className="fab fa-youtube">
-                                <span
-                                    style={{
-                                        marginLeft: "10px",
-                                    }}
-                                >
-                                    Youtube
-                                </span>
-                            </i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
+  return (
+    <Box sx={{ maxwidth: '100%', color:"white", bgcolor: "#1976d2", p: 4 }}>
+    <Item>
+      <h1>Footer</h1>
+      </Item>
+      {/* Grid container */}
+      <Grid container spacing={2} justifyContent="center">
+        {/* First column: Takes 6/12 width on small screens, 3/12 width on medium */}
+        <Grid item xs={12} sm={6} md={3}>
+        <Item><h3>About Us</h3></Item>
+          <Item><a href="/">Thing 1</a></Item>
+          <Item><a href="./page2">Thing 2</a></Item>
+          <Item><a href="./page3">Thing 3</a></Item>
+        </Grid>
+
+        {/* Second column */}
+        <Grid item xs={12} sm={6} md={3}>
+        <Item><h3>Services</h3></Item>
+           <Item><a href="/">Thing 1</a></Item>
+          <Item><a href="./page2">Thing 2</a></Item>
+          <Item><a href="./page3">Thing 3</a></Item>
+        </Grid>
+
+        {/* Third column */}
+        <Grid item xs={12} sm={6} md={3}>
+        <Item><h3>Contact Us</h3></Item>
+           <Item><a href="/">Thing 1</a></Item>
+          <Item><a href="./page2">Thing 2</a></Item>
+          <Item><a href="./page3">Thing 3</a></Item>
+        </Grid>
+
+        {/* Fourth column */}
+        <Grid item xs={12} sm={6} md={3}>
+          <Item><h3>Social Media</h3></Item>
+           <Item><a href="/">Thing 1</a></Item>
+          <Item><a href="./page2">Thing 2</a></Item>
+          <Item><a href="./page3">Thing 3</a></Item>
+        </Grid>
+      </Grid>
+    </Box>
+  );
 };
+
 export default Footer;
