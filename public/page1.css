@@ -35,45 +35,42 @@ noscript {
 
 /**-----------------------------------------------------------------------------------------------------**/
 /** No-react **/
-
 #main-body {
-    margin: 10rem 20rem;
+    margin: 10rem 10rem;
     display: grid;
-    grid-area:
-        box-1 box-3;
-        box-2 box-3
-        box-4 box-4
-    ;
-}
+    height: 45rem;
+    grid-template-areas:
+        "box-1 box-3"
+        "box-2 box-3"
+        "box-4 box-4";
+    grid-template-collumns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2rem;
 
 .box-1 {
-    height: 50px;
-    width: 50px;
     background-color: black;
     display: inline-block;
     grid-area: box-1;
+    border: 1px black solid;
 }
 
 .box-2 {
-    height: 50px;
-    width: 50px;
     background-color: blue;
     display: inline-block;
     grid-area: box-2;
+    border: 1px black solid;
 }
 
 .box-3 {
-    height: 50px;
-    width: 50px;
     background-color: green;
     display: inline-block;
     grid-area: box-3;
+    border: 1px black solid;
 }
 
 .box-4 {
-    height: 50px;
-    width: 50px;
     background-color: yellow;
     display: inline-block;
     grid-area: box-4;
+    border: 1px black solid;
 }
