@@ -17,7 +17,7 @@ const Home = () => {
                 <Grid size={
                     {xs: 12, md: 6}
                     }>
-                    <Grid container spacing={2}>
+                    <Grid id="grid1" container spacing={2}>
                         <Grid item size={6}>
                             <Item>
                         <h1>Information Box</h1>
@@ -46,8 +46,8 @@ const Home = () => {
                             </Grid>
                     </Grid>
                 </Grid>
-                <Grid size={{xs: 12, md: 6}}>
-                    <Item id="maxsize">
+                <Grid id="maxsize" size={{xs: 12, md: 6}}>
+                    <Item>
                         <h1>Information Box</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. 
                                 Morbi vel arcu. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. 
