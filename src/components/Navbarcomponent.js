@@ -32,7 +32,7 @@ function Navbar() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Typography
+        <Typography
             variant="h6"
             noWrap
             component="a"
@@ -49,7 +49,6 @@ function Navbar() {
           >
             LOGO
           </Typography>
-
           {/* Mobile menu icon */}
           <Box sx={{flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
