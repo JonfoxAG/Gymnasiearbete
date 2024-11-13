@@ -67,6 +67,8 @@ const Home = () => {
                                 Morbi vel arcu. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. 
                                 Praesent et diam eget libero egestas mattis. Sed convallis augue vitae lorem.
                                 Nullam euismod convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. 
                                 {isExpanded && (
                                     <span>
                                         Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. 
