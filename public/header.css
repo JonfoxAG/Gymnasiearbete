@@ -9,3 +9,8 @@
 .header-item {
     display: inline-block;
 }
+
+a {
+    text-decoration:none;
+    color: black;
+}
