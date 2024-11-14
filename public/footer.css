@@ -1,1 +1,27 @@
+footer {
+    margin: 0;
+    padding: 0;
+    height: 15rem;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}
 
+.half1 {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    padding: 2rem 0 0 2rem
+}
+
+.half2 {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    padding: 2rem 0 0 2rem
+}
+
+.footer-items {
+    padding: 2rem;
+}
