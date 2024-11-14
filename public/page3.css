@@ -2,3 +2,36 @@
     margin: 0;
     padding: 0;
 }
+
+
+.main-body {
+    widht: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box1 {
+    background-color: green;
+    height: 10rem;
+    width: 20rem;
+    display: inline-block;
+    margin: 2rem 0;
+}
+
+.box2 {
+    background-color: yellow;
+    height: 10rem;
+    width: 20rem;
+    display: inline-block;
+    margin: 2rem 0;
+}
+
+.box3 {
+    background-color: blue;
+    height: 10rem;
+    width: 20rem;
+    display: inline-block;
+    margin: 2rem 0;
+}
