@@ -10,6 +10,20 @@
   <link rel="stylesheet" href="footer.css" />
 </head>
 
+<script type="text/javascript">
+ function toggleBox(button) {
+    const box = button.parentElement;
+    box.classList.toggle("expanded");
+
+    // Update button text based on expanded state
+    if (box.classList.contains("expanded")) {
+        button.textContent = "Collapse";
+    } else {
+        button.textContent = "Expand";
+    }
+}
+</script>
+
 <body>
   <section id="header">
     <div class="header-item"><p>LOGO</p></div>
@@ -18,8 +32,26 @@
     <div class="header-item"><a href="page3.html"><p>Page 3</p></a></div>
   </section>
 
-    <section>
-    </section>
+  <section class="main-body">
+      <div class="box box1">
+          <div class="content">
+              <p>Additional information for Box 1</p>
+          </div>
+          <button onclick="toggleBox(this)">Expand</button>
+      </div>
+      <div class="box box2">
+          <div class="content">
+              <p>Additional information for Box 2</p>
+          </div>
+          <button onclick="toggleBox(this)">Expand</button>
+      </div>
+      <div class="box box3">
+          <div class="content">
+              <p>Additional information for Box 3</p>
+          </div>
+          <button onclick="toggleBox(this)">Expand</button>
+      </div>
+  </section>
 
     <footer>
     <div class="half1">
