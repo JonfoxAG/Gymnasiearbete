@@ -3,35 +3,61 @@
     padding: 0;
 }
 
-
 .main-body {
-    widht: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.box1 {
-    background-color: green;
+.box {
     height: 10rem;
     width: 20rem;
-    display: inline-block;
     margin: 2rem 0;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    transition: width 0.3s ease;
+}
+
+.box1 {
+    background-color: green;
 }
 
 .box2 {
     background-color: yellow;
-    height: 10rem;
-    width: 20rem;
-    display: inline-block;
-    margin: 2rem 0;
 }
 
 .box3 {
     background-color: blue;
-    height: 10rem;
-    width: 20rem;
-    display: inline-block;
-    margin: 2rem 0;
+}
+
+/* Expanded box style */
+.box.expanded {
+    height: 20rem; /* New height when expanded */
+    width: 30rem; /** New width when expanded **/
+}
+
+/* Hidden content initially */
+.content {
+    display: none;
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+}
+
+/* Show content when expanded */
+.box.expanded .content {
+    display: block;
+}
+
+button {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    cursor: pointer;
 }
