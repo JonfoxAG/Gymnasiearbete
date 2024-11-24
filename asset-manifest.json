@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ionlundsthlm22/Gymnasiearbete/my-react-app/public/index.html/static/css/main.7f8733f8.css",
-    "main.js": "/ionlundsthlm22/Gymnasiearbete/my-react-app/public/index.html/static/js/main.b944c8a0.js",
-    "index.html": "/ionlundsthlm22/Gymnasiearbete/my-react-app/public/index.html/index.html",
-    "main.7f8733f8.css.map": "/ionlundsthlm22/Gymnasiearbete/my-react-app/public/index.html/static/css/main.7f8733f8.css.map",
-    "main.b944c8a0.js.map": "/ionlundsthlm22/Gymnasiearbete/my-react-app/public/index.html/static/js/main.b944c8a0.js.map"
+    "main.css": "/jonfoxag/Gymnasiearbete/static/css/main.7f8733f8.css",
+    "main.js": "/jonfoxag/Gymnasiearbete/static/js/main.9f6e06d6.js",
+    "index.html": "/jonfoxag/Gymnasiearbete/index.html",
+    "main.7f8733f8.css.map": "/jonfoxag/Gymnasiearbete/static/css/main.7f8733f8.css.map",
+    "main.9f6e06d6.js.map": "/jonfoxag/Gymnasiearbete/static/js/main.9f6e06d6.js.map"
   },
   "entrypoints": [
     "static/css/main.7f8733f8.css",
-    "static/js/main.b944c8a0.js"
+    "static/js/main.9f6e06d6.js"
   ]
 }
