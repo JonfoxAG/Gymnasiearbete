@@ -1,8 +1,8 @@
 {
   "name": "my-react-app",
   "version": "0.1.0",
-  "homepage": "https://jonfoxag.github.io/Gymnasiearbete",
   "private": true,
+  "homepage": "https://jonfoxag.github.io/Gymnasiearbete/",
   "dependencies": {
     "@fontsource/roboto": "^5.1.0",
     "@mui/icons-material": "^6.1.8",

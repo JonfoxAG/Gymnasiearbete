@@ -1,11 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages';
 import Page2 from './pages/page2';
 import Page3 from './pages/page3';
 import Navbar from './components/Navbarcomponent'; // Import the Navbar component
-import { Pages } from '@mui/icons-material';
 import Footer from './components/Footer';
 
 export default function App() {
