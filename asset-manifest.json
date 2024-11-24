@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/Gymnasiearbete/static/css/main.7f8733f8.css",
-    "main.js": "/Gymnasiearbete/static/js/main.9f6e06d6.js",
-    "index.html": "/Gymnasiearbete/index.html",
-    "main.7f8733f8.css.map": "/Gymnasiearbete/static/css/main.7f8733f8.css.map",
-    "main.9f6e06d6.js.map": "/Gymnasiearbete/static/js/main.9f6e06d6.js.map"
+    "main.css": "/my-react-app/static/css/main.7f8733f8.css",
+    "main.js": "/my-react-app/static/js/main.09cdc696.js",
+    "static/js/453.ad6eb26e.chunk.js": "/my-react-app/static/js/453.ad6eb26e.chunk.js",
+    "index.html": "/my-react-app/index.html",
+    "main.7f8733f8.css.map": "/my-react-app/static/css/main.7f8733f8.css.map",
+    "main.09cdc696.js.map": "/my-react-app/static/js/main.09cdc696.js.map",
+    "453.ad6eb26e.chunk.js.map": "/my-react-app/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f8733f8.css",
-    "static/js/main.9f6e06d6.js"
+    "static/js/main.09cdc696.js"
   ]
 }
