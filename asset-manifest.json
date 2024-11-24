@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ionlundsthlm22/Gymnasiearbete/my-react-app/public/index.html/static/css/main.7f8733f8.css",
+    "main.js": "/ionlundsthlm22/Gymnasiearbete/my-react-app/public/index.html/static/js/main.b944c8a0.js",
+    "index.html": "/ionlundsthlm22/Gymnasiearbete/my-react-app/public/index.html/index.html",
+    "main.7f8733f8.css.map": "/ionlundsthlm22/Gymnasiearbete/my-react-app/public/index.html/static/css/main.7f8733f8.css.map",
+    "main.b944c8a0.js.map": "/ionlundsthlm22/Gymnasiearbete/my-react-app/public/index.html/static/js/main.b944c8a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f8733f8.css",
+    "static/js/main.b944c8a0.js"
+  ]
+}
