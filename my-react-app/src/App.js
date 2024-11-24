@@ -1,12 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages';
+import Home from './pages/Home';
 import Page2 from './pages/page2';
 import Page3 from './pages/page3';
-import Navbar from './components/Navbarcomponent'; // Import the Navbar component
-import Footer from './components/Footer';
-
-export default function App() {
+import Navbar from './components/navbar';
+import Footer from "./components/Footer";
+function App() {
   return (
     <React.StrictMode>
     <Router>
@@ -19,5 +18,7 @@ export default function App() {
     </Router>
     <Footer />
   </React.StrictMode>
-  )
+  );
 }
+
+export default App;
