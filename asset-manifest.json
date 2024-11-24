@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/jonfoxag/Gymnasiearbete/static/css/main.7f8733f8.css",
-    "main.js": "/jonfoxag/Gymnasiearbete/static/js/main.9f6e06d6.js",
-    "index.html": "/jonfoxag/Gymnasiearbete/index.html",
-    "main.7f8733f8.css.map": "/jonfoxag/Gymnasiearbete/static/css/main.7f8733f8.css.map",
-    "main.9f6e06d6.js.map": "/jonfoxag/Gymnasiearbete/static/js/main.9f6e06d6.js.map"
+    "main.css": "/Gymnasiearbete/static/css/main.7f8733f8.css",
+    "main.js": "/Gymnasiearbete/static/js/main.9f6e06d6.js",
+    "index.html": "/Gymnasiearbete/index.html",
+    "main.7f8733f8.css.map": "/Gymnasiearbete/static/css/main.7f8733f8.css.map",
+    "main.9f6e06d6.js.map": "/Gymnasiearbete/static/js/main.9f6e06d6.js.map"
   },
   "entrypoints": [
     "static/css/main.7f8733f8.css",
