@@ -12,7 +12,7 @@ import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom';
 
 const pages = [
-  { name: 'Home', path: '/' },
+  { name: 'Home', path: '/page1' },
   { name: 'Page 2', path: '/page2' },
   { name: 'Page 3', path: '/page3' },
 ];
@@ -32,23 +32,6 @@ function Navbar() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-        <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            LOGO
-          </Typography>
           {/* Mobile menu icon */}
           <Box sx={{flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
@@ -79,40 +62,28 @@ function Navbar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page.path} onClick={handleCloseNavMenu}>
-                  <Link to={page.path} style={{ textDecoration: 'none', color: 'inherit' }}>
+                  <Link to={page.path} style={{ textDecoration: 'none', 
+                  color: 'inherit', 
+                  }}>
                     <Typography textAlign="center">{page.name}</Typography>
                   </Link>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
-
           {/* Desktop links */}
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            LOGO
-          </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box id="dbox" sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
                 key={page.path}
                 component={Link}
                 to={page.path}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'white', display: 'block',
+                  display: { xs: 'none', md: 'flex' },
+                  justifyContent: 'center',
+                  flexGrow: 1,
+                }}
+
               >
                 {page.name}
               </Button>
@@ -121,6 +92,7 @@ function Navbar() {
         </Toolbar>
       </Container>
     </AppBar>
+
   );
 }
 
